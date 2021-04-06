@@ -5,7 +5,6 @@
  * @version 1.0.1
  * @authorId 797208386076672020
  * @authorLink https://0g.vc/
- * @website https://0g.vc/
  * @source https://raw.githubusercontent.com/9o3/BD-no-console-spam/main/NoConsoleSpam.plugin.js
  */
 module.exports = class NoConsoleSpam {
