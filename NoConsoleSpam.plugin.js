@@ -2,7 +2,7 @@
  * @name NoConsoleSpam
  * @author Night 👻#4206
  * @description No Self-XSS warning spam when you open the console.
- * @version 1.0.0
+ * @version 1.0.1
  * @authorId 797208386076672020
  * @authorLink https://0g.vc/
  * @website https://0g.vc/
@@ -10,9 +10,9 @@
  */
 module.exports = class NoConsoleSpam {
     start() {
-        const version = "1.0.0";
+        const version = "1.0.1";
         require('request').get('https://raw.githubusercontent.com/9o3/BD-no-console-spam/main/version.txt', async (err, _response, body) => {
-            if (body != version && body != "Not Found") {
+            if (body.trim() != version && body.trim() != "Not Found") {
                 BdApi.showConfirmationModal('Outdated version!', "The plugin NoConsoleSpam is outdated. Please click Update to update it.", {
                 confirmText: 'Update',
                 cancelText: 'Cancel',
