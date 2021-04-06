@@ -6,7 +6,7 @@
  * @authorId 797208386076672020
  * @authorLink https://0g.vc/
  * @website https://0g.vc/
- * @source https://github.com/9o3/BD-no-console-spam/NoConsoleSpam.plugin.js
+ * @source https://raw.githubusercontent.com/9o3/BD-no-console-spam/main/NoConsoleSpam.plugin.js
  */
 module.exports = class NoConsoleSpam {
     start() {
